@@ -420,6 +420,7 @@ if __name__ == '__main__':
     plt.imshow(page4.image)
     plt.axis('off') 
     plt.show()
+
 #%%    
     for i in tqdm(range(num)):
         page = MattsPage(parm, text_selector)
